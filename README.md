@@ -332,17 +332,7 @@ resume-agent/
 │   ├── requirements.txt                     # Python 依赖
 │   └── Dockerfile                           # FastAPI 容器
 │
-├── ebook/                                 # 系统设计文档 + 面试问答
-│   ├── 00_目录索引.md
-│   ├── 01_LangGraph状态机.md
-│   ├── 02_RAG三级检索.md
-│   ├── 03_Tool_Calling机制.md
-│   ├── 04_MCP技能包.md
-│   ├── 05_WebSocket流式通信.md
-│   ├── 06_多模型路由.md
-│   ├── 07_综合面试题汇总.md
-│   └── ...
-│
+
 ├── docker-compose.yml                       # 6 服务编排
 ├── AGENTS.md                                # Agent 开发规范（给 AI 协作者）
 └── README.md
@@ -467,7 +457,7 @@ resume-agent/
 
 ## 更多文档
 
-- [系统设计教程（ebook/）](ebook/00_目录索引.md)
+- [系统设计教程（GitHub Wiki）](https://github.com/Katrina55553/Resume-Agent/wiki)
 - [Agent 开发规范（AGENTS.md）](AGENTS.md)
 - [MCP Server 文档（MCP_README.md）](MCP_README.md)
 
